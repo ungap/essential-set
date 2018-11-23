@@ -1,7 +1,8 @@
 /*! (c) Andrea Giammarchi - ISC */
-try { new Set; }
-catch (o_O) {
-  Set = function () {
+var self = this || /* istanbul ignore next */ {};
+try { self.Set = Set; }
+catch (Set) {
+  self.Set = function Set() {
     var i = 0;
     var v = [];
     return {
