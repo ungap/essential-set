@@ -7,5 +7,9 @@ An essential [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 Only methods are `add`, `delete`, and `has`.
 
   * CDN via https://unpkg.com/@ungap/essential-set
-  * ESM via `import WeakSet from '@ungap/essential-set'`
-  * CJS via `const WeakSet = require('@ungap/essential-set')`
+  * ESM via `import Set from '@ungap/essential-set'`
+  * CJS via `const Set = require('@ungap/essential-set')`
+
+Compatible down to IE9, works well with ES5 shim upfront in IE8 (and maybe lower too).
+
+[Live test](https://ungap.github.io/essential-set/test/)
